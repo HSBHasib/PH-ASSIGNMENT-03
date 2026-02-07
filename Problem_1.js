@@ -7,8 +7,7 @@ function newPrice(currentPrice, discount) {
     // Calculate discount price
     let discountResult = currentPrice - (currentPrice * (discount/100) );
 
-    // let finalOutput = Number(discountResult.toFixed(3));
-    // return finalOutput;
-
     return discountResult.toFixed(3);
 }
+console.log(newPrice(4000, 5));
+
